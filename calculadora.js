@@ -1,6 +1,6 @@
 /* ============================================================
    CALCULADORA CON HISTORIAL DE OPERACIONES
-   Módulo 3: Fundamentos de programación en JavaScript
+   Fundamentos de programación en JavaScript
    ============================================================ */
 
 let historial = [];
@@ -27,7 +27,7 @@ function dividir(a, b) {
 }
 
 // ------------------------------------------------------------
-// LECCIÓN 2: Condicionales — decide qué función llamar
+//  Condicionales — decide qué función llamar
 // según la operación elegida por el usuario .
 // ------------------------------------------------------------
 
@@ -55,8 +55,8 @@ function ejecutarOperacion(operacion, a, b) {
 }
 
 // ------------------------------------------------------------
-// LECCIÓN 5: Objetos — crea un objeto con propiedades para
-// representar UNA operación del historial.
+// Objetos — crea un objeto con propiedades para
+// representar una operación del historial.
 // ------------------------------------------------------------
 
 function crearRegistroHistorial(nombreOperacion, a, b, resultado) {
@@ -86,7 +86,7 @@ function nombreDeOperacion(codigo) {
 }
 
 // ------------------------------------------------------------
-// LECCIÓN 3: Arreglos y ciclos 
+// Arreglos y ciclos 
 // ------------------------------------------------------------
 
 function mostrarHistorial() {
@@ -107,7 +107,7 @@ function mostrarHistorial() {
 }
 
 // ------------------------------------------------------------
-// LECCIÓN 3: Función que FILTRA elementos del arreglo según una condición
+// Función que FILTRA elementos del arreglo según una condición
 // ------------------------------------------------------------
 
 function filtrarHistorialPorOperacion(nombreOperacion) {
@@ -122,7 +122,7 @@ function filtrarHistorialPorOperacion(nombreOperacion) {
 }
 
 // ------------------------------------------------------------
-// LECCIÓN 2: Validación de entradas del usuario
+// Validación de entradas del usuario
 // ------------------------------------------------------------
 
 function pedirNumero(mensaje) {
@@ -139,8 +139,7 @@ function pedirNumero(mensaje) {
 }
 
 // ------------------------------------------------------------
-// LECCIÓN 1: Uso de prompt() y alert() para interacción con el usuario
-// Función principal que ejecuta un ciclo de la calculadora
+//  Uso de prompt() y alert() 
 // ------------------------------------------------------------
 
 function realizarCalculo() {
@@ -198,8 +197,7 @@ function simboloDeOperacion(codigo) {
 }
 
 // ------------------------------------------------------------
-// LECCIÓN 5: map() — genera un resumen de solo los resultados numéricos
-// (requisito explícito: "recorrerlo con map() o forEach()")
+//  map() — genera un resumen de solo los resultados numéricos
 // ------------------------------------------------------------
 
 function obtenerSoloResultados() {
